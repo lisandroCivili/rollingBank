@@ -1,9 +1,15 @@
                                     /******************* NAV BAR *******************/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 .navbar-brand{
     font-family: 'Bebas Neue', sans-serif;    
 }
-
+.img-carousel{
+    object-fit: cover;
+}
+.nosotros{
+    box-shadow: 0px 10px 5px 0px rgba(180, 180, 184, 0.651);
+}
 @media all and (max-width: 575px) {
     .navbar-brand{
         font-size: 25px;
@@ -21,6 +27,35 @@
         padding-left: auto; consultar como hacer para aumentar el hitbox
         padding-right: auto;
     } */
+
+    /************ MAIN *************/
+    #carousel-main{
+        height: 35vh;
+    }
+    .nosotros{
+        width: 35vh;
+        height: 20vh;
+    }
+    .nosotros p{
+        font-size: 15px;
+    }
+    .celular{
+        height: 70vh;
+        width: 100%;
+        align-items: center;
+    }
+    .celular img{
+        width: 75%;
+    }
+    .seguridad p{
+        width: 75%;
+    }
+    .redes p:nth-child(1){
+        font-size: 24px;
+    }
+    .redes p:nth-child(2){
+        font-size: 15px;
+    }
 }
 @media all and (min-width: 576px) and (max-width: 991px)  {
     .navbar-brand{
@@ -43,6 +78,31 @@
         padding-left: auto;
         padding-right: auto;
     } */
+    /************ MAIN *************/
+    #carousel-main{
+        height: 45vh;
+    }
+    .nosotros{
+        height: 15vh;
+    }
+    .nosotros:nth-child(3){
+        width: 50%;
+    }
+    .celular{
+        width: 40%;
+    }
+    .celular img{
+        width: 95%;
+    }
+    .seguridad{
+        width: 60%;
+    }
+    .redes p:nth-child(1){
+        font-size: 35px;
+    }
+    .redes p:nth-child(2){
+        font-size: 23px;
+    }
 }
 @media all and (min-width: 992px) {
     .navbar-brand{
@@ -50,5 +110,31 @@
     }
     .nav-item{
         font-size: 20px;
+    }
+    /************ MAIN *************/
+    #carousel-main{
+        height: 60vh;
+    }
+    .nosotros{
+        width: 30%;
+    }
+    .celular{
+        width: 35%;
+        height: 100vh;
+    }
+    .celular img{
+        width: 95%;
+    }
+    .seguridad{
+        width: 65%;
+    }
+    .seguridad p{
+        font-size: 23px;
+    }
+    .redes p:nth-child(1){
+        font-size: 35px;
+    }
+    .redes p:nth-child(2){
+        font-size: 23px;
     }
 }
