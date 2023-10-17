@@ -1,7 +1,7 @@
 /******************* NAV BAR *******************/
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
-.navbar-brand {
+.navbar-brand, .footer-titles, .seguridad-main h2 {
   font-family: "Bebas Neue", sans-serif;
 }
 .img-carousel {
@@ -47,7 +47,7 @@
   .celular img {
     width: 75%;
   }
-  .seguridad p {
+  .seguridad-main p {
     width: 75%;
   }
   .redes p:nth-child(1) {
@@ -94,7 +94,7 @@
   .celular img {
     width: 95%;
   }
-  .seguridad {
+  .seguridad-main {
     width: 60%;
   }
   .redes p:nth-child(1) {
@@ -125,10 +125,10 @@
   .celular img {
     width: 95%;
   }
-  .seguridad {
+  .seguridad-main {
     width: 65%;
   }
-  .seguridad p {
+  .seguridad-main p {
     font-size: 23px;
   }
   .redes p:nth-child(1) {
