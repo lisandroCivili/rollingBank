@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sitio oficial de Rolling Bank">
+    <meta name="keywords" content="bank, money, virtual">
+    <meta name="author" content="Lisandro Civili">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">RollingBank</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item py-1">
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item py-1">
+                <a class="nav-link fw-bold" href="#">Quienes somos</a>
+              </li>
+              <li class="nav-item py-1">
+                <a class="nav-link fw-bold" href="#">Precios</a>
+              </li>
+              <li class="nav-item py-1">
+                <a class="nav-link fw-bold" href="#">Seguridad</a>
+              </li>
+              <li class="nav-item py-1">
+                <a class="nav-link fw-bold" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-grow-1">
+      <section>
+        <div id="carousel-main" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+              <img src="./img/banner/bitcoin.jpg" class="d-block w-100 h-100 img-carousel" alt="...">
+            </div>
+            <div class="carousel-item h-100">
+              <img src="./img/banner/cajero.jpg" class="d-block w-100 h-100 img-carousel" alt="...">
+            </div>
+            <div class="carousel-item h-100">
+              <img src="./img/banner/dolar.jpg" class="d-block w-100 h-100 img-carousel" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-main" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-main" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section>
+        <article class="container text-center">
+          <div class="row">
+            <div class="nosotros col-md-6 col-lg-4 border my-3 my-lg-5 mx-auto">
+              <i class="bi bi-hand-thumbs-up text-danger fs-1"></i>
+              <h3 class="fs-5">Sin sorpresas</h3>
+              <p>Somos transparentes, no vas a encontrar letras chicas.</p>
+            </div>
+            <div class="nosotros col-md-6 col-lg-4 border nosotros my-3 my-lg-5 mx-auto">
+              <i class="bi bi-emoji-sunglasses text-primary fs-1"></i>
+              <h3 class="fs-5">Aprobado</h3>
+              <p>Estamos aprobados y regulados por el Banco Central.</p>
+            </div>
+            <div class="nosotros col-md-12 col-lg-4 border nosotros my-3 my-lg-5 mx-auto">
+              <i class="bi bi-currency-dollar text-success fs-1"></i>
+              <h3 class="fs-5">Sin costos</h3>
+              <p>Tus operaciones diarias están incluidas.</p>
+            </div>
+          </div>
+        </article>
+        <article class="container">
+          <div class="text-center d-md-flex">
+            <div class="celular d-flex flex-column align-items-center me-md-4">
+              <img src="./img/iphone-illustration-sec.png" alt="" class="h-100">
+            </div>
+            <div class="seguridad row text-md-start">
+              <div class="col-md-12 mt-4">
+                <h2>Tu segurdad como prioridad</h2>
+                <p class="m-auto m-md-0">Seguimos las mejores practicas de cyberseguridad sin complicarte tu operacón diaria.</p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <i class="bi bi-eye fs-2 text-danger"></i>
+                <h2>Biometría</h2>
+                <p class="m-auto m-md-0">Nuestra tecnología te permite acceder a tu cuenta usando tu huella digital o tu cara.</p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <i class="bi bi-fingerprint fs-2 text-primary"></i>
+                <h2>Segundo factor</h2>
+                <p class="m-auto m-md-0">Usamos un Token invisible para todas las operaciones que hagas.</p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <i class="bi bi-puzzle fs-2 text-info"></i>
+                <h2>Personal</h2>
+                <p class="m-auto m-md-0">Vas a poder ingresar desde un dispositivo a tu cuenta.</p>
+              </div>
+              <div class="col-md-6 mt-4">
+                <i class="bi bi-robot fs-2 text-success"></i>
+                <h2>100% encriptado</h2>
+                <p class="m-auto m-md-0">Todas las transacciones son encriptadas para tu mayor seguridad.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="redes bg-primary px-4 py-4 mt-5">
+          <p class="redes-p text-center text-white">RollingBank te está esperando</p>
+          <p class="redes-p text-center text-white">Bajá la app y vivi una nueva experiencia. Empezá creando tu cuenta sólo con tu DNI.</p>
+          <div class="text-center d-md-flex justify-content-md-center grid gap-1">
+            <div>
+              <img src="./img/badge-apple-store.svg" alt="">
+            </div>
+            <div>
+              <img src="./img/google-play-badge-bb.svg" alt="">
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="bg-dark">
+      <div class="container text-center">
+        <div class="row pb-lg-5 pb-md-5">
+          <div class="col-12 my-2 text-secondary text-lg-start">
+            <h3 class="footer-titles">RollingBank <i class="bi bi-facebook"></i> <i class="bi bi-instagram"> </i><i class="bi bi-twitter-x"> </i></h3>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 my-2 text-secondary  text-lg-start">
+            <h5 class="footer-titles">Navegacion</h5>
+            <p class="a-footer py-1 text-decoration-underline">¿Quienes somos?</p>
+            <p class="a-footer py-1 text-decoration-underline">Precios</p>
+            <p class="a-footer py-1 text-decoration-underline">Seguridad</p>
+            <p class="a-footer py-1 text-decoration-underline">Ayuda</p>
+            <p class="a-footer py-1 text-decoration-underline">Robo o extravío</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 my-2 text-secondary  text-lg-start">
+            <h5 class="footer-titles">Legales</h5>
+            <p class="a-footer py-1 text-decoration-underline">Regimen de transparencia</p>
+            <p class="a-footer py-1 text-decoration-underline">Usuario bancario</p>
+            <p class="a-footer py-1 text-decoration-underline">Conducta bancaria</p>
+            <p class="a-footer py-1 text-decoration-underline">Estados contables</p>
+            <p class="a-footer py-1 text-decoration-underline">Terminos y condiciones</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 my-2 d-flex flex-column align-items-center align-items-lg-start">
+            <div class="w-75">
+              <img src="./img/usuariosfinancieros.png" class="w-100" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 my-2 text-secondary text-lg-start">
+            <h5 class="footer-titles">Unite</h5>
+            <div class="my-1">
+              <img src="./img/badge-apple-store.svg" alt="" srcset="">
+            </div>
+            <div class="my-1">
+              <img src="./img/google-play-badge-bb.svg" alt="" srcset="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
+
