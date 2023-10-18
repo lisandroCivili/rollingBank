@@ -24,9 +24,9 @@
     border-bottom: 0.1px solid rgba(157, 157, 160, 0.651);
   }
   /* .nav-link{
-                                            padding-left: auto; consultar como hacer para aumentar el hitbox
-                                            padding-right: auto;
-                                        } */
+      padding-left: auto; consultar como hacer para aumentar el hitbox
+      padding-right: auto;
+    } */
 
   /************ MAIN *************/
   #carousel-main {
@@ -56,6 +56,17 @@
   .redes p:nth-child(2) {
     font-size: 15px;
   }
+  /**************** SEGURIDAD ****************/
+  #seguridad-medio{
+    display: flex;
+    flex-direction: column;
+  }
+  .seg-medio-img{
+    order: -1;
+  }
+  .row p{
+    font-size: 17px;
+  }
 }
 @media all and (min-width: 576px) and (max-width: 991px) {
   .navbar-brand {
@@ -75,9 +86,9 @@
     border-bottom: 0.1px solid rgba(157, 157, 160, 0.651);
   }
   /* .nav-link{
-                                            padding-left: auto;
-                                            padding-right: auto;
-                                        } */
+      padding-left: auto;
+      padding-right: auto;
+    } */
   /************ MAIN *************/
   #carousel-main {
     height: 45vh;
@@ -102,6 +113,14 @@
   }
   .redes p:nth-child(2) {
     font-size: 23px;
+  }
+  /**************** SEGURIDAD ****************/
+  #seguridad-medio{
+    display: flex;
+    flex-direction: column;
+  }
+  .seg-medio-img{
+    order: -1;
   }
 }
 @media all and (min-width: 992px) {
@@ -136,5 +155,13 @@
   }
   .redes p:nth-child(2) {
     font-size: 23px;
+  }
+  /**************** SEGURIDAD ****************/
+  #seguridad-medio{
+    display: flex;
+  }
+  .seguridad-info > div{
+    width: 50%;
+    padding: 10px;
   }
 }
