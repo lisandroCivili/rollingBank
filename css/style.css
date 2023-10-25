@@ -36,10 +36,6 @@
     border-top: 0.1px solid rgba(157, 157, 160, 0.651);
     border-bottom: 0.1px solid rgba(157, 157, 160, 0.651);
   }
-  /* .nav-link{
-      padding-left: auto; consultar como hacer para aumentar el hitbox
-      padding-right: auto;
-    } */
 
   /************ MAIN *************/
   #carousel-main {
@@ -47,7 +43,7 @@
   }
   .nosotros {
     width: 35vh;
-    height: 20vh;
+    height: 25vh;
   }
   .nosotros p {
     font-size: 15px;
